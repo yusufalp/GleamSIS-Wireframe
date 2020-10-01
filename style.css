@@ -15,17 +15,70 @@
 }
 
 header {
-  width: 50%;
+  width: 90%;
   text-align: center;
   margin: 60px auto;
 }
 
+form {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
+label,
+select {
+  display: block;
+  margin-top: 18px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+ul {
+  text-align: left;
+}
+
 .group {
+  width: 100%;
+  margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .item {
+  margin: 0 2%;
   text-align: center;
-  width: 100%;
+  width: 90%;
+}
+
+.item-pricing {
+  margin: 0 2%;
+  text-align: center;
+  width: 50%;
+}
+
+@media all and (min-width: 850px) {
+  header {
+    width: 50%;
+  }
+
+  form {
+    width: 25%;
+  }
+
+  .group {
+    width: 80%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .item {
+    width: 50%;
+  }
 }
