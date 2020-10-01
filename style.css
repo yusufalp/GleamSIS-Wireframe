@@ -1,0 +1,31 @@
+.logo {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.navbar-links a {
+  font-size: 24px;
+  padding-left: 36px;
+}
+
+header {
+  width: 50%;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  text-align: center;
+  width: 100%;
+}
